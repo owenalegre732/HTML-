@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <label for="name">Nombre: </label>
+        <input type="text" name="Nombre" id="name">
+        <br>
+        <label for="surname">Apellidos: </label>
+        <input type="text" name="apellidos" id="surname">
+        <br>
+        <label for="sexo">Sexo:</label>
+        <input type="radio" name="Sexo" id="hombre" value="hombre">
+        <label for="hombre">Hombre</label>
+        <input type="radio" name="Sexo" id="mujer" value="mujer">
+        <label for="mujer">Mujer</label>
+        <br>
+        <label for="email">Email: </label>
+        <input type="text" name="Email" id="email">
+        <br>
+        <input type="checkbox" name="info" id="informacion">
+        <label for="informacion">Deseo recibir informacion sobre novedades y ofertas.</label>
+        <br>
+        <input type="checkbox" name="condiciones" id="condicionesPR" checked>
+        <label for="condicionesPR">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos.</label>
+        <br>
+        <a href="condicionesAPP.html">Condiciones de uso</a>
+        <br>
+        <label for="pais">Pais de prosedencia</label>
+        <select name="Paises" id="pais">
+            <option value="argentina" selected>Argentina</option>
+            <option value="chile">Chile</option>
+            <option value="brasil">Brasil</option>
+            <option value="uruguay">Uruguay</option>
+            <option value="paraguay">Paraguay</option>
+            <option value="bolivia">Bolivia</option>
+            <option value="peru">Perú</option>
+            <option value="colombia">Colombia</option>
+            <option value="ecuador">Ecuador</option>
+            <option value="venezuela">Venezuela</option>
+            <option value="surinam">Surinam</option>
+        </select>
+        <br>
+        <label for="password">Contraseña: </label>
+        <input type="password" name="contraseña" id="password">
+        <br>
+        <label for="reppassword">Repita su contraseña: </label>
+        <input type="password" name="repcontraseña" id="reppassword">
+        <br>
+        <label for="estCivil">Estado civil: </label>
+        <select name="estado civil" id="estCivil">
+            <option value="soltero" selected>Soltero</option>
+            <option value="casado">Casado</option>
+            <option value="viudo/a">Viudo/a</option>
+            <option value="divorciado">Divorciado</option>
+            <option value="concubino/a">Concubino/a</option>
+            <option value="separado">Separado legalmente</option>
+        </select>
+        <fieldset>
+            <legend>Direccion</legend>
+
+            <label for="provincia">Provincia: </label>
+            <input type="text" name="Provincia" id="provincia">
+            <br>
+            <label for="localidad">Localidad</label>
+            <input type="text" name="Localidad" id="localidad">
+            <br>
+            <label for="direccion">Direccion</label>
+            <input type="text" name="Direccion" id="direccion">
+            <br>
+            <label for="número">Número</label>
+            <input type="text" name="Numero" id="número">
+            <br>
+            <label for="depto">Departamento</label>
+            <input type="text" name="Departamento" id="depto">
+
+        </fieldset>
+        <input type="submit" value="enviar">
+
+
+
+    </form>
+</body>
+</html>
